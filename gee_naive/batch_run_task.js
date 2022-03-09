@@ -23,3 +23,6 @@ ee_dialog[i].shadowRoot.querySelector("ee-dialog").shadowRoot.querySelector("pap
 
 }
 confirm();
+
+// 批量Cancle
+// 打开 Task Manager取消
