@@ -1,0 +1,1 @@
+https://gis.stackexchange.com/questions/323728/smoothing-interpolating-across-images-in-an-imagecollection-to-remove-missing-da

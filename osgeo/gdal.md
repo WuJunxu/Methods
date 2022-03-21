@@ -31,3 +31,12 @@
 | ogr2ogr | 用于处理和转换矢量数据 |
 | ogrtindex | 用于创建其他几个矢量数据集的索引 |
 | gdalmove.py | 用于转换文件的坐标系和地理转换 |
+
+
+[Gdal.Warp参数总结](https://gdal.org/python/index.html)
+
+参考Gdal.WarpOptions()
+参考网上已有代码
+
+
+LZW Compress是什么类型的压缩
