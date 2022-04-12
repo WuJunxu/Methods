@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<html lang="zh-Hans-CN">
+<head>
+<meta charset="utf-8">
+<!--手機解析度-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--TDK-->
+<title>门店据点-1点点</title>
+<meta name="description" content="门店据点-1点点">
+
+<!--Other Code-->
+
+<!--open graph protocol-->
+<meta property="og:title" content="门店据点-1点点">
+<meta property="og:image" content="">
+<meta property="og:description" content="门店据点-1点点">
+<meta property="og:url" content="https://www.alittle-tea.com/storelocations/1/1/1/6/">
+<meta property="og:site_name" content="1点点">
+<meta property="og:type" content="website">
+
+<!--bread script-->
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+	  {
+		"@type": "ListItem",
+		"position": 1,
+		"item": {
+		  "@id": "https://www.alittle-tea.com/",
+		  "name": "首頁"
+			}
+	  },
+	  {
+		"@type": "ListItem",
+		"position": 2,
+		"item": {
+		  "@id": "https://www.alittle-tea.com/storelocations/",
+		  "name": "门店据点"
+			}
+	  },
+	  {
+		"@type": "ListItem",
+		"position": 3,
+		"item": {
+		  "@id": "https://www.alittle-tea.com/storelocations/1/1/1/6/",
+		  "name": ""
+			}
+	  }
+	    ]
+}
+</script>
+<!--css-->
+<link rel="stylesheet" type="text/css" href="https://www.alittle-tea.com/css/master.css">
+<link rel="stylesheet" type="text/css" href="https://www.alittle-tea.com/css/store.css">
+<!--favor icon-->
+<link rel="shortcut icon" href="https://www.alittle-tea.com/images/touch-icon/apple-icon-60x60.png" />
+<!--touch_icon-->
+<link rel="apple-touch-icon" href="https://www.alittle-tea.com/images/touch-icon/apple-icon-60x60.png" /> 
+<link rel="apple-touch-icon" sizes="76x76" href="https://www.alittle-tea.com/images/touch-icon/apple-icon-76x76.png" /> 
+<link rel="apple-touch-icon" sizes="120x120" href="https://www.alittle-tea.com/images/touch-icon/apple-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="https://www.alittle-tea.com/images/touch-icon/apple-icon-152x152.png" />
+
+<script src="https://www.alittle-tea.com/public/js/jquery-1.12.4.min.js"></script>
+<script src="https://www.alittle-tea.com/public/js/jquery.blockUI.js"></script>
+<script src="https://www.alittle-tea.com/public/js/ajax_function.js"></script> 
+<script src="https://www.alittle-tea.com/public/js/script.js"></script>
+<script>
+function open_layer_detail(div_name,width,height){
+	if(width==''){
+		width=0;
+	}
+	if(height==''){
+		height=0;
+	}
+	$.blockUI({
+	message:$('#'+div_name),
+		css:{ 
+		cursor:'default',
+		width: width + 'px',
+		height:height+ 'px',
+		padding:'0px',
+		top:($(window).height()-height)/2 + 'px',
+		left:($(window).width()-width)/2 + 'px'
+		}
+	});		
+}
+function open_loading_status(loading_name){
+	width=$('#'+loading_name).css('width').replace("px","");
+	height=$('#'+loading_name).css('height').replace("px","");
+	$.blockUI({
+	message:$('#'+loading_name),
+		css:{ 
+		cursor:'default',
+		border:'',
+		backgroundColor:'',
+		width: width + 'px',
+		height:height+ 'px',
+		padding:'0px',
+		top:($(window).height()-height)/2 + 'px',
+		left:($(window).width()-width)/2 + 'px'
+		}
+	});
+}
+function close_layer_detail(){
+	$.unblockUI();
+}
+function close_top_layer_detail(){
+	top.$.unblockUI();
+}
+//建立執行的div
+$(function(){
+	jQuery.browser = {};
+	(function () {
+	    jQuery.browser.msie = false;
+	    jQuery.browser.version = 0;
+	    if (navigator.userAgent.match(/MSIE ([0-9]+)\./)) {
+	        jQuery.browser.msie = true;
+	        jQuery.browser.version = RegExp.$1;
+	    }
+	})();
+	$('body').prepend("<span id='iframe_string'></span>");
+	$('body').prepend('<div id="waiting_action" style="display:none;text-align:center;position: absolute;z-index: 99998;color:#FFF;font-size:12px;border:0px;"><img src="https://www.alittle-tea.com/public/loading_type/loading_big.gif" hspace="2" align="absmiddle"/><br><img src="https://www.alittle-tea.com/public/loading_type/loading_text.png" hspace="2" align="absmiddle"/></div>');
+});
+//end
+</script>
+<script>
+	var isMobile = false;
+	var isTablet = false;
+	var isAndroidOS = false;
+	var isiOS = false;
+	var isSafari = false;
+</script>
+
+<script>
+function open_layer_detail(div_name,width,height){
+	if(width==''){
+		width=0;
+	}
+	if(height==''){
+		height=0;
+	}
+	$.blockUI({
+	message:$('#'+div_name),
+		css:{ 
+		cursor:'default',
+		width: width + 'px',
+		height:height+ 'px',
+		padding:'0px',
+		top:($(window).height()-height)/2 + 'px',
+		left:($(window).width()-width)/2 + 'px'
+		}
+	});		
+}
+</script>
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?15ccddd43b88429b32701e105ef0bcf9";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<style></style>
+
+</head>
+<body class="storelocationsPage">
+
+
+
+<div class="loadingArea"><!-- loadingArea -->
+    <div class="loadLogo">
+        <!-- <img src="https://www.alittle-tea.com/images/loading.svg" alt=""> -->
+        <div class="icon">
+            <svg class="icon_loading">
+                <use xlink:href="#icon_loading"></use>
+            </svg>
+        </div>
+    </div>
+</div><!-- loadingArea end -->
+
+<script>
+    if(window.innerWidth > 1180) {
+        var data = sessionStorage.getItem('loading');
+        if( data == 'ok' ) {
+            $('.loadingArea').remove();
+        }
+        $(function() {
+            var data = sessionStorage.getItem('loading');
+            if( data != 'ok' ) {
+                $(".loadingArea").addClass('show');
+
+                setTimeout(function() {
+                    $('.loadingArea').remove();
+                    sessionStorage.setItem('loading','ok');
+                },4000);
+            }
+        });
+    }
+</script>
+    
+<div class="outerWrap ins b-box"><!--outerWrap-->   
+	
+    <header class="hold"><!--header-->
+    	<div class="wrap b-box clearfix"><!--wrap-->
+            <div class="logo"><a href="https://www.alittle-tea.com/" title="1点点">1点点</a></div>
+            <nav class="menuBox"><!--menuBox-->
+                <ul class="menu cleafix" itemscope itemtype="http://www.schema.org/SiteNavigationElement"><!--menu-->
+                    <li itemprop="name"><a itemprop="url" href="https://www.alittle-tea.com/aboutus/"><span>关于我们</span><em>About us</em></a></li>
+                    <li itemprop="name"><a itemprop="url" href="https://www.alittle-tea.com/ourdrinks/"><span>饮品介绍</span><em>Products</em></a></li>
+                    <li itemprop="name"><a itemprop="url" href="https://www.alittle-tea.com/latestnews/"><span>最新消息</span><em>Lastest news</em></a></li>
+                    <li itemprop="name"><a itemprop="url" href="https://www.alittle-tea.com/community/"><span>公益事业</span><em>Stronghold</em></a></li>
+                    <li itemprop="name"><a itemprop="url" href="https://www.alittle-tea.com/storelocations/"><span>门店据点</span><em>Investors</em></a></li>
+                    <li itemprop="name"><a itemprop="url" href="https://www.alittle-tea.com/joinus/"><span>伙伴招募</span><em>Affiliate area</em></a></li>
+                    <li itemprop="name"><a itemprop="url" href="https://www.alittle-tea.com/franchiseinformation/"><span>加盟咨询</span><em>Future</em></a></li>
+                    <li itemprop="name"><a itemprop="url" href="https://www.alittle-tea.com/contactus/"><span>联络我们</span><em>Contact us</em></a></li>
+                </ul><!--menu end-->
+            </nav><!--menuBox end-->
+            <div class="socialBox"><!-- socialBox -->
+                <div class="language"><!--language-->
+                    <a href="javascript:;" class="trans">LANGUAGE</a>
+                    <ul>
+    <li><a href="https://www.alittle-tea.com/">CN</a></li>
+    <li><a href="https://www.alittle-tea.com/en/">EN</a></li>
+</ul>                </div><!--language end-->
+
+                            </div><!-- socialBox end -->
+        </div><!--wrap end-->
+    </header><!--header end-->
+
+    <div class='floatArea'><!-- floatArea -->
+        <a href="https://www.alittle-tea.com/latestnews/"><span>最新消息</span></a>
+        <a href="https://www.alittle-tea.com/ourdrinks/"><span>饮品介绍</span></a>
+        <a href="https://www.alittle-tea.com/storelocations/"><span>门店据点</span></a>
+        <a href="https://www.alittle-tea.com/franchiseinformation/"><span>加盟咨询</span></a>
+    </div><!-- floatArea end -->
+
+	    <!--banner-->
+    <div class="bannerArea ins b-box"><!--bannnerArea-->
+       	<div class="wrap b-box"><!--wrap-->
+            <div class="bannerBox"><!--bannerBox-->
+                            </div><!--bannerBox end-->
+        </div><!--wrap end-->
+    </div><!--bannerArea end-->
+    	<script>
+        $(function(){
+            $('ul.menu').find('a[href*="/storelocations/"]').addClass('current');
+        });
+    </script>
+    <!--main-->
+    <div class="mainArea"><!--mainArea-->
+        <div class="wrap b-box"><!--wrap-->
+            <div class="titleBox clearfix"><!--titleBox-->
+            	<em class="subTitle">Store Locations</em>
+            	<h2 class="title">门店据点</h2>
+            </div><!--titleBox end-->
+			<div class="contentBox clearfix"><!--contentBox-->
+				<div class="pinBox">
+					
+<div class="storeClassBox"><!-- storeClassBox -->
+    <div class="storeClassTitle">请选择欲查询之门店</div>
+    <div class='storeClassListBox'><!-- storeClassListBox -->
+        <div class="listBox countryBox"><!-- countryBox -->
+            <a class="main">
+                中国            </a>
+            <ul class="countryList">
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/"
+                         class="current">
+                        中国                    </a>
+                </li>
+                            </ul>
+        </div><!-- countryBox end -->
+                <div class="listBox  cityBox"><!-- cityBox -->
+            <a class="main">
+                北京市            </a>
+            <ul class="cityList">
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/1/"
+                         class="current">
+                        北京市                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/2/"
+                        >
+                        天津市                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/3/"
+                        >
+                        上海市                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/4/"
+                        >
+                        重庆市                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/5/"
+                        >
+                        河北省                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/6/"
+                        >
+                        山西省                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/7/"
+                        >
+                        内蒙古自治区                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/8/"
+                        >
+                        辽宁省                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/9/"
+                        >
+                        吉林省                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/10/"
+                        >
+                        黑龙江                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/11/"
+                        >
+                        江苏                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/12/"
+                        >
+                        浙江                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/13/"
+                        >
+                        安徽                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/14/"
+                        >
+                        福建                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/15/"
+                        >
+                        江西                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/16/"
+                        >
+                        山东                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/17/"
+                        >
+                        河南                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/18/"
+                        >
+                        湖北                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/19/"
+                        >
+                        湖南                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/20/"
+                        >
+                        广东                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/21/"
+                        >
+                        广西壮族自治区                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/22/"
+                        >
+                        海南                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/23/"
+                        >
+                        四川                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/24/"
+                        >
+                        贵州                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/25/"
+                        >
+                        云南                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/26/"
+                        >
+                        西藏自治区                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/27/"
+                        >
+                        陕西                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/28/"
+                        >
+                        甘肃                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/29/"
+                        >
+                        青海                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/30/"
+                        >
+                        宁夏回族自治区                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/31/"
+                        >
+                        新疆维吾尔自治区                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/32/"
+                        >
+                        香港特别行政区                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/33/"
+                        >
+                        澳门特别行政区                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/34/"
+                        >
+                        台湾                    </a>
+                </li>
+                            </ul>
+        </div><!-- cityBox end -->
+                        <div class="listBox  areaBox"><!-- areaBox -->
+            <a class="main">
+                北京市            </a>
+            <ul class="areaList">
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/1/1/"
+                         class="current">
+                        北京市                    </a>
+                </li>
+                            </ul>
+        </div><!-- areaBox end -->
+                        <div class="listBox  placeBox"><!-- placeBox -->
+            <a class="main">
+                海淀区            </a>
+            <ul class="placeList">
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/1/1/1/"
+                        >
+                        东城区                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/1/1/2/"
+                        >
+                        西城区                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/1/1/3/"
+                        >
+                        朝阳区                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/1/1/4/"
+                        >
+                        丰台区                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/1/1/5/"
+                        >
+                        石景山区                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/1/1/6/"
+                         class="current">
+                        海淀区                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/1/1/7/"
+                        >
+                        门头沟区                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/1/1/8/"
+                        >
+                        房山区                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/1/1/9/"
+                        >
+                        通州区                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/1/1/10/"
+                        >
+                        顺义区                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/1/1/11/"
+                        >
+                        昌平区                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/1/1/12/"
+                        >
+                        大兴区                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/1/1/13/"
+                        >
+                        怀柔区                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/1/1/14/"
+                        >
+                        平谷区                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/1/1/15/"
+                        >
+                        密云区                    </a>
+                </li>
+                                <li>
+                    <a href="https://www.alittle-tea.com/storelocations/1/1/1/16/"
+                        >
+                        延庆区                    </a>
+                </li>
+                            </ul>
+        </div><!-- placeBox end -->
+            </div><!-- storeClassListBox end -->
+</div><!-- storeClassBox end -->
+					<table class="responsive toggle-square storeList" width="100%">
+						<thead>
+							<tr>
+								<th data-toggle="true">门店名称</th>
+								<th data-hide="phone,tablet">城市</th>
+								<th>电话</th>
+								<th data-hide="phone">据点地址</th>
+								<th>百度地图</th>
+							</tr>
+						</thead>
+					</table>
+				</div>
+												<!---->
+<table class="responsive toggle-square storeList" width="100%" style="margin-top:-61px;">
+    <!-- <thead style="display:none;"> -->
+    <thead style="pointer-events: none;opacity: 0;">
+        <tr>
+            <th data-toggle="true">门店名称</th>
+            <th data-hide="phone,tablet">城市</th>
+            <th>电话</th>
+            <th data-hide="phone">据点地址</th>
+            <th>百度地图</th>
+        </tr>
+    </thead>
+	<tbody>
+                <tr>
+            <td>苏州街地铁站店</td>
+            <td>海淀区</td>
+            <td><a href="tel:13439851894">13439851894</a></td>
+            <td>北京北京市海淀区海淀南路15号楼1层1门101室(味多美隔壁)</td>
+            <td style="text-align: right">
+                <div class="btn marker"><a href="http://api.map.baidu.com/geocoder?address=北京市北京市海淀区北京北京市海淀区海淀南路15号楼1层1门101室(味多美隔壁)&output=html" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+            </td>
+        </tr>
+                <tr>
+            <td>交通大学店</td>
+            <td>海淀区</td>
+            <td><a href="tel:13260265839">13260265839</a></td>
+            <td>北京北京市海淀区交通大学路1号楼1号院1-2-4</td>
+            <td style="text-align: right">
+                <div class="btn marker"><a href="http://api.map.baidu.com/geocoder?address=北京市北京市海淀区北京北京市海淀区交通大学路1号楼1号院1-2-4&output=html" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+            </td>
+        </tr>
+                <tr>
+            <td>五道口金融学院店</td>
+            <td>海淀区</td>
+            <td><a href="tel:13121005508">13121005508</a></td>
+            <td>北京北京市海淀区成府路45-4号一层105</td>
+            <td style="text-align: right">
+                <div class="btn marker"><a href="http://api.map.baidu.com/geocoder?address=北京市北京市海淀区北京北京市海淀区成府路45-4号一层105&output=html" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+            </td>
+        </tr>
+                <tr>
+            <td>中关村店</td>
+            <td>海淀区</td>
+            <td><a href="tel:13716493253">13716493253</a></td>
+            <td>北京北京市海淀区中关村大街20号</td>
+            <td style="text-align: right">
+                <div class="btn marker"><a href="http://api.map.baidu.com/geocoder?address=北京市北京市海淀区北京北京市海淀区中关村大街20号&output=html" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+            </td>
+        </tr>
+                <tr>
+            <td>邮电大学店</td>
+            <td>海淀区</td>
+            <td><a href="tel:18511125969">18511125969</a></td>
+            <td>北京北京市海淀区学院南路9号</td>
+            <td style="text-align: right">
+                <div class="btn marker"><a href="http://api.map.baidu.com/geocoder?address=北京市北京市海淀区北京北京市海淀区学院南路9号&output=html" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+            </td>
+        </tr>
+                <tr>
+            <td>语言大学店</td>
+            <td>海淀区</td>
+            <td><a href="tel:17611637298">17611637298</a></td>
+            <td>北京北京市海淀区学院路17号</td>
+            <td style="text-align: right">
+                <div class="btn marker"><a href="http://api.map.baidu.com/geocoder?address=北京市北京市海淀区北京北京市海淀区学院路17号&output=html" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+            </td>
+        </tr>
+                <tr>
+            <td>知春路店</td>
+            <td>海淀区</td>
+            <td><a href="tel:18510771998">18510771998</a></td>
+            <td>北京北京市海淀区北京市海淀区知春路紫金数码园3号楼一层0107-1</td>
+            <td style="text-align: right">
+                <div class="btn marker"><a href="http://api.map.baidu.com/geocoder?address=北京市北京市海淀区北京北京市海淀区北京市海淀区知春路紫金数码园3号楼一层0107-1&output=html" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+            </td>
+        </tr>
+                <tr>
+            <td>西二旗店</td>
+            <td>海淀区</td>
+            <td><a href="tel:13717878736">13717878736</a></td>
+            <td>北京北京市海淀区上地十街1号院6号楼一层146-3</td>
+            <td style="text-align: right">
+                <div class="btn marker"><a href="http://api.map.baidu.com/geocoder?address=北京市北京市海淀区北京北京市海淀区上地十街1号院6号楼一层146-3&output=html" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+            </td>
+        </tr>
+                <tr>
+            <td>增光路店</td>
+            <td>海淀区</td>
+            <td><a href="tel:15901212429">15901212429</a></td>
+            <td>北京北京市海淀区增光路27号院3号楼ㄧ层底商27-9</td>
+            <td style="text-align: right">
+                <div class="btn marker"><a href="http://api.map.baidu.com/geocoder?address=北京市北京市海淀区北京北京市海淀区增光路27号院3号楼ㄧ层底商27-9&output=html" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+            </td>
+        </tr>
+                <tr>
+            <td>苏州桥店</td>
+            <td>海淀区</td>
+            <td><a href="tel:15201098895">15201098895</a></td>
+            <td>北京北京市海淀区北三环西路99号院1号楼1层119室(西海国际3号楼119室)</td>
+            <td style="text-align: right">
+                <div class="btn marker"><a href="http://api.map.baidu.com/geocoder?address=北京市北京市海淀区北京北京市海淀区北三环西路99号院1号楼1层119室(西海国际3号楼119室)&output=html" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+            </td>
+        </tr>
+                <tr>
+            <td>上地地铁站店</td>
+            <td>海淀区</td>
+            <td><a href="tel:15911018624">15911018624</a></td>
+            <td>北京北京市海淀区上地东路2号上地佳园底商42号</td>
+            <td style="text-align: right">
+                <div class="btn marker"><a href="http://api.map.baidu.com/geocoder?address=北京市北京市海淀区北京北京市海淀区上地东路2号上地佳园底商42号&output=html" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+            </td>
+        </tr>
+                <tr>
+            <td>人民大学店</td>
+            <td>海淀区</td>
+            <td><a href="tel:18514289928">18514289928</a></td>
+            <td>北京北京市海淀区中关村大街49号7号楼一层6号</td>
+            <td style="text-align: right">
+                <div class="btn marker"><a href="http://api.map.baidu.com/geocoder?address=北京市北京市海淀区北京北京市海淀区中关村大街49号7号楼一层6号&output=html" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+            </td>
+        </tr>
+                <tr>
+            <td>首都师范大学店</td>
+            <td>海淀区</td>
+            <td><a href="tel:15710018851">15710018851</a></td>
+            <td>北京北京市海淀区西三环北路87号1层110室</td>
+            <td style="text-align: right">
+                <div class="btn marker"><a href="http://api.map.baidu.com/geocoder?address=北京市北京市海淀区北京北京市海淀区西三环北路87号1层110室&output=html" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+            </td>
+        </tr>
+                <tr>
+            <td>五路居店</td>
+            <td>海淀区</td>
+            <td><a href="tel:13001922827">13001922827</a></td>
+            <td>北京北京市海淀区八里庄路62号院2号楼1层106(定慧桥家乐福往东100米味多美对面)</td>
+            <td style="text-align: right">
+                <div class="btn marker"><a href="http://api.map.baidu.com/geocoder?address=北京市北京市海淀区北京北京市海淀区八里庄路62号院2号楼1层106(定慧桥家乐福往东100米味多美对面)&output=html" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+            </td>
+        </tr>
+                <tr>
+            <td>中央财经大学店</td>
+            <td>海淀区</td>
+            <td><a href="tel:18618150930">18618150930</a></td>
+            <td>北京北京市海淀区西外学院南路四道口西北角超市发一层101</td>
+            <td style="text-align: right">
+                <div class="btn marker"><a href="http://api.map.baidu.com/geocoder?address=北京市北京市海淀区北京北京市海淀区西外学院南路四道口西北角超市发一层101&output=html" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+            </td>
+        </tr>
+                <tr>
+            <td>民族大学店</td>
+            <td>海淀区</td>
+            <td><a href="tel:13120022071">13120022071</a></td>
+            <td>北京北京市海淀区中关村南大街27号一楼底商</td>
+            <td style="text-align: right">
+                <div class="btn marker"><a href="http://api.map.baidu.com/geocoder?address=北京市北京市海淀区北京北京市海淀区中关村南大街27号一楼底商&output=html" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+            </td>
+        </tr>
+                <tr>
+            <td>六道口店</td>
+            <td>海淀区</td>
+            <td><a href="tel:01082381298">01082381298</a></td>
+            <td>北京北京市海淀区清华东路25号1号楼一层104室</td>
+            <td style="text-align: right">
+                <div class="btn marker"><a href="http://api.map.baidu.com/geocoder?address=北京市北京市海淀区北京北京市海淀区清华东路25号1号楼一层104室&output=html" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+            </td>
+        </tr>
+                <tr>
+            <td>长安天街店</td>
+            <td>海淀区</td>
+            <td><a href="tel:17812349026">17812349026</a></td>
+            <td>北京北京市门头沟区新城东街17号院4号楼221</td>
+            <td style="text-align: right">
+                <div class="btn marker"><a href="http://api.map.baidu.com/geocoder?address=北京市北京市海淀区北京北京市门头沟区新城东街17号院4号楼221&output=html" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+            </td>
+        </tr>
+                <tr>
+            <td>清河店</td>
+            <td>海淀区</td>
+            <td><a href="tel:17710809397">17710809397</a></td>
+            <td>北京北京市海淀区清河嘉园1号楼-1层-108</td>
+            <td style="text-align: right">
+                <div class="btn marker"><a href="http://api.map.baidu.com/geocoder?address=北京市北京市海淀区北京北京市海淀区清河嘉园1号楼-1层-108&output=html" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+            </td>
+        </tr>
+                <tr>
+            <td>圣熙8号店</td>
+            <td>海淀区</td>
+            <td><a href="tel:17767331604">17767331604</a></td>
+            <td>北京北京市海淀区学清路圣熙8号购物中心（庆丰包子铺对面）</td>
+            <td style="text-align: right">
+                <div class="btn marker"><a href="http://api.map.baidu.com/geocoder?address=北京市北京市海淀区北京北京市海淀区学清路圣熙8号购物中心（庆丰包子铺对面）&output=html" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+            </td>
+        </tr>
+                <tr>
+            <td>永定路店</td>
+            <td>海淀区</td>
+            <td><a href="tel:13661185620">13661185620</a></td>
+            <td>北京北京市海淀区永定路甲88-5</td>
+            <td style="text-align: right">
+                <div class="btn marker"><a href="http://api.map.baidu.com/geocoder?address=北京市北京市海淀区北京北京市海淀区永定路甲88-5&output=html" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+            </td>
+        </tr>
+                <tr>
+            <td>北京世纪金源店</td>
+            <td>海淀区</td>
+            <td><a href="tel:15510510820">15510510820</a></td>
+            <td>北京北京市海淀区世纪金源购物中心五层K602</td>
+            <td style="text-align: right">
+                <div class="btn marker"><a href="http://api.map.baidu.com/geocoder?address=北京市北京市海淀区北京北京市海淀区世纪金源购物中心五层K602&output=html" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+            </td>
+        </tr>
+                <tr>
+            <td>杏坛路店</td>
+            <td>海淀区</td>
+            <td><a href="tel:15601135683">15601135683</a></td>
+            <td>北京北京市海淀区北三环中路40号一层110</td>
+            <td style="text-align: right">
+                <div class="btn marker"><a href="http://api.map.baidu.com/geocoder?address=北京市北京市海淀区北京北京市海淀区北三环中路40号一层110&output=html" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+            </td>
+        </tr>
+                <tr>
+            <td>新中关店</td>
+            <td>海淀区</td>
+            <td><a href="tel:15652429788">15652429788</a></td>
+            <td>北京北京市海淀区中关村大街19号（新中关大厦）上三层KL303号</td>
+            <td style="text-align: right">
+                <div class="btn marker"><a href="http://api.map.baidu.com/geocoder?address=北京市北京市海淀区北京北京市海淀区中关村大街19号（新中关大厦）上三层KL303号&output=html" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+            </td>
+        </tr>
+                <tr>
+            <td>北医三院店</td>
+            <td>海淀区</td>
+            <td><a href="tel:18511377313">18511377313</a></td>
+            <td>北京北京市海淀区北京市海淀区花园北路41号</td>
+            <td style="text-align: right">
+                <div class="btn marker"><a href="http://api.map.baidu.com/geocoder?address=北京市北京市海淀区北京北京市海淀区北京市海淀区花园北路41号&output=html" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+            </td>
+        </tr>
+                <tr>
+            <td>农大南路店</td>
+            <td>海淀区</td>
+            <td><a href="tel:18813175761">18813175761</a></td>
+            <td>北京北京市海淀区圆明园西路18号</td>
+            <td style="text-align: right">
+                <div class="btn marker"><a href="http://api.map.baidu.com/geocoder?address=北京市北京市海淀区北京北京市海淀区圆明园西路18号&output=html" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+            </td>
+        </tr>
+                <tr>
+            <td>北京信息科大店</td>
+            <td>海淀区</td>
+            <td><a href="tel:16600065068">16600065068</a></td>
+            <td>北京北京市海淀区清河小营东路17号院前排商铺</td>
+            <td style="text-align: right">
+                <div class="btn marker"><a href="http://api.map.baidu.com/geocoder?address=北京市北京市海淀区北京北京市海淀区清河小营东路17号院前排商铺&output=html" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+            </td>
+        </tr>
+                <tr>
+            <td>安河桥华联店</td>
+            <td>海淀区</td>
+            <td><a href="tel:13520224346">13520224346</a></td>
+            <td>北京北京市海淀区龙背村路99号北京华联肖家河购物中心地下一层B1-15单位</td>
+            <td style="text-align: right">
+                <div class="btn marker"><a href="http://api.map.baidu.com/geocoder?address=北京市北京市海淀区北京北京市海淀区龙背村路99号北京华联肖家河购物中心地下一层B1-15单位&output=html" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+            </td>
+        </tr>
+                <tr>
+            <td>林业大学店</td>
+            <td>海淀区</td>
+            <td><a href="tel:13718776017">13718776017</a></td>
+            <td>北京北京市海淀区林业大学北路文城杰座住宅楼18号院2号楼1层18-16</td>
+            <td style="text-align: right">
+                <div class="btn marker"><a href="http://api.map.baidu.com/geocoder?address=北京市北京市海淀区北京北京市海淀区林业大学北路文城杰座住宅楼18号院2号楼1层18-16&output=html" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+            </td>
+        </tr>
+                <tr>
+            <td>知春路地铁站店</td>
+            <td>海淀区</td>
+            <td><a href="tel:18514671869">18514671869</a></td>
+            <td>北京北京市海淀区知春路29号10号楼2号</td>
+            <td style="text-align: right">
+                <div class="btn marker"><a href="http://api.map.baidu.com/geocoder?address=北京市北京市海淀区北京北京市海淀区知春路29号10号楼2号&output=html" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+            </td>
+        </tr>
+            </tbody>
+</table>
+				<div class="pageBox"><!--pageBox-->
+        <div class="numBox"><span class="currentPage">no.01</span><span> / 01</span></div>
+</div><!--pageBox end-->
+<div class="selectBox"><!-- selectBox -->
+    <a class="prev hide" href="?page=0"></a>
+    <a class="next hide" href="?page=2"></a>
+</div><!-- selectBox end -->            </div><!--contentBox end-->
+    	</div><!--wrap end-->
+    </div><!--mainArea end-->
+    <script src="https://www.alittle-tea.com/public/js/jqueryui/jquery-ui-core-min.js"></script> 
+    <!--footer-->
+    <footer class="clearfix"><!--footer-->
+        <div class="wrap b-box"><!--wrap-->
+            <div class="leftBox"><!-- leftBox -->
+                <div class="top"><!-- top -->
+                    <div class="footerInfo">加盟相关：请点选<a href="https://www.alittle-tea.com/franchiseinformation//">加盟咨询</a>
+意见反馈及山寨举报：请点选<a href="https://www.alittle-tea.com/contactus//">联络我们</a>
+在线时间：周一至周五09:00-18:00</div>                </div><!-- top end -->
+                <div class="bottom"><!-- bottom -->
+                    <div class="left"><!-- left -->
+                        <div class="declare">www.alittle-tea.com是1點點™公司唯一官方网站，1點點™并无其他附属品牌，其他网站均为山寨假冒，请勿相信！</div>
+                        <div class="copyright"><!-- copyright -->
+                            版权所有©2011 生根餐饮管理(上海)有限公司 Taiwan All Rights Reserved.<span>|</span>本网站由《1点点现泡饮料连锁专卖店》建置.<span>|</span>Design by <a href="https://www.ibest.com.tw">iBest</a>
+                        </div><!-- copyright end -->
+                    </div><!-- left end -->
+                    <div class="right"><!-- right -->
+                        <div class="cmLogo"><img src="https://www.alittle-tea.com/images/cm.png" alt="1点点"></div>
+                        <p><a href="http://beian.miit.gov.cn/" target="_blank">上海工商/沪ICP备15053229号-1</a></p>
+                    </div><!-- right end -->
+                </div><!-- bottom end -->
+            </div><!-- leftBox end -->
+                	</div><!--wrap end-->        
+    </footer><!--footer end-->
+</div><!--outerWrap end-->
+
+<!--mobile menu 手機板選單-->
+<div class="m_menu b-box clearfix"><!--m_menu-->
+    <div class="mask"></div>
+    <div class="controlBox clearfix"><!--controlBox-->
+        <a class="main"><span></span></a>
+        <div class="m_logo">
+            <a href="https://www.alittle-tea.com/">
+                <div class="icon">
+                    <svg class="icon_loading">
+                        <use xlink:href="#icon_loading"></use>
+                    </svg>
+                </div>
+            </a>
+        </div>
+        <div class="top_language"><!--m_language-->
+            <a href="https://www.alittle-tea.com/" style="display:none;">CN</a>
+            <a href="https://www.alittle-tea.com/en/">EN</a>
+        </div><!--m_language end-->
+    </div><!--controlBox end-->
+    
+    <div class="hideBox"><!--hideBox-->
+        <p class="sp sp_menu">MENU</p>
+        <div class="m_socialBox"><!-- m_socialBox -->
+            <div class="m_language"><!--m_language-->
+                <div class="word">LANGUAGE</div>
+                <ul>
+    <li><a href="https://www.alittle-tea.com/">CN</a></li>
+    <li><a href="https://www.alittle-tea.com/en/">EN</a></li>
+</ul>            </div><!--m_language end-->
+            <div class="mfun"><!--mfun-->
+                            </div><!--mfun end-->
+        </div><!-- m_socialBox end -->
+        <div class="m_copyright"><!-- copyright -->
+            <div>版权所有©2011 生根餐饮管理(上海)有限公司</div><div>Taiwan All Rights Reserved.</div>
+        </div><!-- copyright end -->
+    </div><!--hideBox end-->
+</div><!--m_menu end-->
+<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" display="none">
+	<symbol id="icon_weibo" viewBox="0 0 52.055 42.18">
+		<g>
+			<path d="M21.87,39.086c-8.62,0.854-16.065-3.044-16.622-8.701c-0.562-5.662,5.975-10.926,14.586-11.784
+				c8.625-0.853,16.066,3.05,16.611,8.703C37.016,32.971,30.482,38.244,21.87,39.086z M39.104,20.314
+				c-0.735-0.224-1.242-0.369-0.855-1.335c0.834-2.096,0.919-3.894,0.01-5.186c-1.687-2.411-6.311-2.287-11.611-0.061
+				c0,0-1.666,0.722-1.238-0.586c0.815-2.626,0.69-4.813-0.582-6.083C21.951,4.186,14.303,7.178,7.75,13.732
+				C2.844,18.623,0,23.84,0,28.345C0,36.942,11.039,42.18,21.837,42.18c14.152,0,23.581-8.225,23.581-14.754
+				C45.418,23.476,42.092,21.235,39.104,20.314L39.104,20.314z"/>
+			<path d="M48.508,4.553C45.094,0.764,40.049-0.686,35.394,0.3l0,0c-1.079,0.237-1.765,1.296-1.525,2.357
+				c0.229,1.081,1.277,1.764,2.355,1.529c3.313-0.7,6.891,0.323,9.324,3.017c2.428,2.697,3.09,6.368,2.043,9.579l0,0
+				c-0.336,1.05,0.232,2.165,1.283,2.512c1.043,0.336,2.164-0.236,2.51-1.278v-0.014C52.85,13.508,51.925,8.341,48.508,4.553
+				L48.508,4.553z"/>
+			<path d="M43.254,9.299c-1.67-1.85-4.132-2.55-6.391-2.06c-0.922,0.188-1.508,1.116-1.322,2.041
+				c0.205,0.927,1.121,1.518,2.037,1.311l0,0c1.108-0.231,2.305,0.115,3.117,1.011c0.814,0.901,1.035,2.131,0.682,3.212l0,0
+				c-0.282,0.892,0.207,1.869,1.107,2.165c0.906,0.285,1.873-0.207,2.169-1.112C45.363,13.662,44.919,11.142,43.254,9.299z"/>
+			<path d="M22.346,28.854c-0.307,0.516-0.963,0.76-1.484,0.546c-0.52-0.202-0.667-0.793-0.374-1.291
+				c0.3-0.498,0.946-0.744,1.451-0.552C22.445,27.743,22.631,28.323,22.346,28.854z M19.588,32.371c-0.832,1.33-2.619,1.907-3.961,1.3
+				c-1.324-0.6-1.721-2.148-0.886-3.447c0.821-1.291,2.552-1.869,3.885-1.31C19.976,29.493,20.416,31.028,19.588,32.371z
+				M22.723,22.956c-4.097-1.069-8.733,0.974-10.51,4.585c-1.82,3.679-0.061,7.776,4.076,9.12c4.289,1.381,9.352-0.741,11.108-4.71
+				C29.141,28.057,26.975,24.062,22.723,22.956z"/>
+		</g>
+	</symbol>
+	<symbol id="icon_wechat" viewBox="0 0 49.936 41.441">
+		<path d="M48.978,22.278c-1.268-2.872-3.658-5.15-6.429-6.555c-4.9-2.482-10.993-2.465-15.874,0.063
+		c-3.396,1.742-6.226,4.862-7.032,8.661c-0.664,2.796-0.069,5.805,1.415,8.239c2.206,3.667,6.195,6.008,10.339,6.757
+		c3.006,0.612,6.111,0.25,9.029-0.593c1.748,0.68,3.309,1.779,5.009,2.591c-0.437-1.467-0.905-2.925-1.405-4.37
+		c1.904-1.354,3.63-3.04,4.669-5.156c1.548-2.949,1.642-6.601,0.281-9.634L48.978,22.278z M28.332,2.584
+		c-5.19-2.921-11.657-3.361-17.24-1.342C7.424,2.562,4.1,5.018,2.05,8.358c-1.86,3.018-2.56,6.779-1.661,10.231
+		c0.899,3.83,3.558,7.038,6.786,9.182c-0.625,1.766-1.218,3.536-1.779,5.315c2.028-1.061,4.057-2.169,6.086-3.246
+		c2.434,0.78,5.025,1.161,7.615,1.077c-0.686-1.966-0.843-4.088-0.531-6.142c0.468-2.853,2.029-5.462,4.151-7.397
+		c3.589-3.358,8.676-4.775,13.514-4.432c-0.905-4.441-4.026-8.196-7.959-10.362H28.332z M31.934,23.37
+		c-0.431,1.355-2.403,1.764-3.358,0.73c-1.052-0.955-0.642-2.952,0.737-3.377C30.841,20.077,32.605,21.841,31.934,23.37z
+		M41.911,23.557c-0.53,1.224-2.372,1.504-3.277,0.562c-0.437-0.397-0.562-0.992-0.718-1.52c0.219-0.952,0.874-1.941,1.936-1.985
+		c1.466-0.203,2.777,1.607,2.028,2.943H41.911z M27.027,10.131c0.016,1.998-2.652,3.246-4.15,1.892
+		c-1.555-1.114-1.115-3.824,0.711-4.385c1.632-0.655,3.565,0.718,3.433,2.466L27.027,10.131z M14.418,10.636
+		c-0.355,1.738-2.684,2.578-4.047,1.411c-1.58-1.111-1.136-3.87,0.718-4.432c1.816-0.699,3.879,1.146,3.332,3.022H14.418z"/>
+	</symbol>
+	<symbol id="icon_loading" viewBox="0 0 74.16 39.205">
+		<g>
+			<defs>
+				<rect id="SVGID_1_" width="74.16" height="39.205"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+			<path style="clip-path:url(#SVGID_2_);" d="M55.208,21.344c0,0.089,0.03,0.21,0.098,0.346
+				c0.197,0.536,0.388,1.254,0.56,2.157c0.137,0.39,0.359,0.586,0.65,0.586c0.628,0,0.941-0.226,0.941-0.68
+				c0-0.185-0.029-0.405-0.093-0.655c-0.204-0.767-0.452-1.452-0.751-2.059c-0.204-0.186-0.42-0.281-0.653-0.281
+				C55.454,20.758,55.208,20.953,55.208,21.344"/>
+			<path style="clip-path:url(#SVGID_2_);" d="M62.428,21.507c0-0.437-0.285-0.654-0.846-0.654
+				c-0.373,0-0.592,0.159-0.659,0.491c-0.183,0.653-0.468,1.27-0.839,1.847c-0.065,0.175-0.093,0.33-0.093,0.467
+				c0,0.457,0.282,0.681,0.843,0.681c0.342,0,0.594-0.132,0.748-0.398c0.314-0.562,0.561-1.186,0.751-1.873
+				C62.395,21.848,62.428,21.662,62.428,21.507"/>
+			<path style="clip-path:url(#SVGID_2_);" d="M69.363,32.316c2.65-0.002,4.797-2.149,4.797-4.798
+				c0-2.633-2.118-4.765-4.742-4.794l-0.012-0.197c0.379-0.079,0.671-0.147,0.876-0.199c1.432-0.389,2.452-1.091,3.077-2.119
+				c0.629-1.028,0.873-1.896,0.724-2.591c-0.046-0.206-0.163-0.285-0.377-0.229c-0.101,0.025-0.204,0.195-0.312,0.499
+				c-0.343,0.95-1.098,1.583-2.253,1.894c-0.92,0.24-1.731,0.354-2.441,0.327c-0.013,0.321,0.025,1.206,0.112,2.644
+				c-2.389,0.274-4.248,2.299-4.248,4.765C64.564,30.167,66.713,32.314,69.363,32.316 M68.912,24.271
+				c0.028,0.442,0.053,0.845,0.083,1.198l0.568-0.444l-0.05-0.782c1.741,0.082,3.128,1.512,3.131,3.275
+				c-0.003,1.811-1.469,3.277-3.281,3.279c-1.811-0.002-3.277-1.468-3.282-3.279C66.086,25.856,67.313,24.493,68.912,24.271"/>
+			<path style="clip-path:url(#SVGID_2_);" d="M63.737,32.938c0.371-0.22,0.564-0.466,0.564-0.748
+				c0-0.554-0.281-0.824-0.846-0.824c-1.188,0.157-2.432,0.294-3.748,0.402v-1.735h3.56c0.562,0,0.841-0.279,0.841-0.843
+				c0-0.547-0.279-0.819-0.841-0.819h-3.56v-1.714h3.001c1.121,0,1.688-0.53,1.688-1.59v-5.158c0-1.042-0.567-1.567-1.688-1.567
+				h-7.969c-1.047,0-1.567,0.525-1.567,1.567v5.158c0,1.06,0.52,1.59,1.567,1.59h3.187v1.714h-3.748c-0.564,0-0.847,0.272-0.847,0.819
+				c0,0.564,0.283,0.843,0.847,0.843h3.748v1.874c-1.173,0.078-2.643,0.142-4.407,0.185c-0.435,0.051-0.657,0.303-0.657,0.753
+				c0,0.687,0.377,1.033,1.129,1.033c0.233,0,1.101-0.054,2.596-0.14c1.284-0.066,2.454-0.15,3.514-0.263
+				C61.544,33.289,62.756,33.112,63.737,32.938 M59.707,20.007h2.158c0.498,0,0.75,0.249,0.75,0.751v3.489
+				c0,0.48-0.252,0.73-0.75,0.73h-2.158V20.007z M57.926,24.977h-2.348c-0.435,0-0.654-0.25-0.654-0.73v-3.489
+				c0-0.502,0.219-0.751,0.654-0.751h2.348V24.977z"/>
+			<path style="clip-path:url(#SVGID_2_);" d="M71.264,33.515c-1.281,0-2.321,1.045-2.321,2.328
+				c0,1.286,1.04,2.331,2.321,2.331c1.288,0,2.334-1.045,2.334-2.331C73.598,34.56,72.552,33.515,71.264,33.515 M70.531,35.61
+				c-0.356,0-0.651-0.293-0.651-0.649c0-0.359,0.295-0.651,0.651-0.651c0.356,0,0.646,0.292,0.646,0.651
+				C71.177,35.317,70.887,35.61,70.531,35.61"/>
+			<path style="clip-path:url(#SVGID_2_);" d="M65.278,34.309c-1.161,0-2.095,0.939-2.095,2.094
+				c0,1.155,0.934,2.09,2.095,2.09c1.156,0,2.088-0.935,2.088-2.09C67.366,35.248,66.434,34.309,65.278,34.309 M64.611,36.188
+				c-0.323,0-0.58-0.264-0.58-0.578c0-0.326,0.257-0.593,0.58-0.593c0.318,0,0.58,0.267,0.58,0.593
+				C65.191,35.924,64.929,36.188,64.611,36.188"/>
+			<path style="clip-path:url(#SVGID_2_);" d="M54.556,35.811c-0.936,0-1.694,0.759-1.694,1.698
+				c0,0.936,0.758,1.696,1.694,1.696c0.934,0,1.698-0.76,1.698-1.696C56.254,36.57,55.49,35.811,54.556,35.811 M54.015,37.332
+				c-0.256,0-0.472-0.21-0.472-0.471c0-0.261,0.216-0.469,0.472-0.469c0.262,0,0.475,0.208,0.475,0.469
+				C54.49,37.122,54.277,37.332,54.015,37.332"/>
+			<path style="clip-path:url(#SVGID_2_);" d="M59.719,35.071c-1.041,0-1.888,0.844-1.888,1.884
+				c0,1.04,0.847,1.882,1.888,1.882c1.034,0,1.888-0.842,1.888-1.882C61.607,35.915,60.753,35.071,59.719,35.071 M59.119,36.761
+				c-0.292,0-0.526-0.236-0.526-0.525c0-0.294,0.234-0.522,0.526-0.522c0.286,0,0.526,0.228,0.526,0.522
+				C59.645,36.525,59.405,36.761,59.119,36.761"/>
+			<path style="clip-path:url(#SVGID_2_);" d="M38.345,21.507c0-0.437-0.283-0.654-0.844-0.654
+				c-0.375,0-0.593,0.159-0.657,0.491c-0.186,0.653-0.469,1.27-0.839,1.847c-0.066,0.175-0.093,0.33-0.093,0.467
+				c0,0.457,0.28,0.681,0.843,0.681c0.342,0,0.592-0.132,0.746-0.398c0.314-0.562,0.561-1.186,0.752-1.873
+				C38.314,21.848,38.345,21.662,38.345,21.507"/>
+			<path style="clip-path:url(#SVGID_2_);" d="M31.127,21.344c0,0.089,0.03,0.21,0.098,0.346
+				c0.197,0.536,0.385,1.254,0.56,2.157c0.136,0.39,0.36,0.586,0.651,0.586c0.627,0,0.94-0.226,0.94-0.68
+				c0-0.185-0.032-0.405-0.093-0.655c-0.204-0.767-0.454-1.452-0.75-2.059c-0.206-0.186-0.422-0.281-0.655-0.281
+				C31.375,20.758,31.127,20.953,31.127,21.344"/>
+			<path style="clip-path:url(#SVGID_2_);" d="M45.338,22.724l-0.012-0.198c0.381-0.079,0.671-0.146,0.875-0.199
+				c1.433-0.388,2.454-1.091,3.079-2.119c0.627-1.027,0.872-1.895,0.724-2.591c-0.047-0.206-0.165-0.285-0.377-0.228
+				c-0.1,0.024-0.206,0.194-0.311,0.499c-0.346,0.95-1.102,1.583-2.257,1.893c-0.918,0.241-1.73,0.355-2.44,0.328
+				c-0.013,0.321,0.026,1.206,0.114,2.644c-2.391,0.273-4.249,2.299-4.249,4.765c0,2.649,2.151,4.796,4.8,4.798
+				c2.649-0.002,4.796-2.149,4.796-4.798C50.08,24.885,47.962,22.751,45.338,22.724 M45.284,30.797
+				c-1.812-0.002-3.279-1.469-3.282-3.279c0.003-1.659,1.232-3.025,2.831-3.247c0.028,0.443,0.053,0.844,0.083,1.198l0.567-0.444
+				l-0.05-0.783c1.742,0.082,3.127,1.513,3.131,3.276C48.56,29.328,47.096,30.795,45.284,30.797"/>
+			<path style="clip-path:url(#SVGID_2_);" d="M39.657,32.938c0.371-0.22,0.563-0.466,0.563-0.748
+				c0-0.554-0.281-0.824-0.844-0.824c-1.19,0.157-2.434,0.294-3.75,0.402v-1.735h3.561c0.563,0,0.841-0.279,0.841-0.843
+				c0-0.547-0.278-0.819-0.841-0.819h-3.561v-1.714h3.001c1.123,0,1.688-0.53,1.688-1.59v-5.158c0-1.042-0.565-1.567-1.688-1.567
+				h-7.968c-1.048,0-1.566,0.525-1.566,1.567v5.158c0,1.06,0.518,1.59,1.566,1.59h3.187v1.714h-3.749
+				c-0.563,0-0.847,0.272-0.847,0.819c0,0.564,0.284,0.843,0.847,0.843h3.749v1.874c-1.174,0.078-2.642,0.142-4.409,0.185
+				c-0.432,0.051-0.654,0.303-0.654,0.753c0,0.687,0.375,1.033,1.128,1.033c0.233,0,1.099-0.054,2.596-0.14
+				c1.283-0.066,2.453-0.15,3.515-0.263C37.465,33.289,38.676,33.112,39.657,32.938 M35.626,20.007h2.16
+				c0.499,0,0.749,0.249,0.749,0.751v3.489c0,0.48-0.25,0.73-0.749,0.73h-2.16V20.007z M33.846,24.977H31.5
+				c-0.437,0-0.655-0.25-0.655-0.73v-3.489c0-0.502,0.218-0.751,0.655-0.751h2.346V24.977z"/>
+			<path style="clip-path:url(#SVGID_2_);" d="M30.475,35.811c-0.935,0-1.692,0.759-1.692,1.698
+				c0,0.936,0.757,1.696,1.692,1.696c0.935,0,1.697-0.76,1.697-1.696C32.172,36.57,31.41,35.811,30.475,35.811 M29.936,37.332
+				c-0.256,0-0.472-0.21-0.472-0.471c0-0.261,0.216-0.469,0.472-0.469c0.261,0,0.473,0.208,0.473,0.469
+				C30.409,37.122,30.197,37.332,29.936,37.332"/>
+			<path style="clip-path:url(#SVGID_2_);" d="M35.638,35.071c-1.04,0-1.889,0.844-1.889,1.884
+				c0,1.04,0.849,1.882,1.889,1.882c1.037,0,1.888-0.842,1.888-1.882C37.526,35.915,36.675,35.071,35.638,35.071 M35.04,36.761
+				c-0.293,0-0.525-0.236-0.525-0.525c0-0.294,0.232-0.522,0.525-0.522c0.286,0,0.524,0.228,0.524,0.522
+				C35.564,36.525,35.326,36.761,35.04,36.761"/>
+			<path style="clip-path:url(#SVGID_2_);" d="M41.196,34.309c-1.156,0-2.094,0.939-2.094,2.094
+				c0,1.155,0.938,2.09,2.094,2.09c1.159,0,2.091-0.935,2.091-2.09C43.287,35.248,42.355,34.309,41.196,34.309 M40.532,36.188
+				c-0.326,0-0.582-0.264-0.582-0.578c0-0.326,0.256-0.593,0.582-0.593c0.317,0,0.579,0.267,0.579,0.593
+				C41.111,35.924,40.849,36.188,40.532,36.188"/>
+			<path style="clip-path:url(#SVGID_2_);" d="M47.185,33.515c-1.281,0-2.321,1.045-2.321,2.328
+				c0,1.286,1.04,2.331,2.321,2.331c1.286,0,2.332-1.045,2.332-2.331C49.517,34.56,48.471,33.515,47.185,33.515 M46.45,35.61
+				c-0.356,0-0.649-0.293-0.649-0.649c0-0.359,0.293-0.651,0.649-0.651c0.356,0,0.647,0.292,0.647,0.651
+				C47.097,35.317,46.806,35.61,46.45,35.61"/>
+			<path style="clip-path:url(#SVGID_2_);" d="M24.089,35.627c-0.63-0.387-1.46-0.584-2.377-0.949
+				c-0.355-0.127-0.678-0.285-0.97-0.463c-0.01-0.008-0.02-0.014-0.031-0.021c-0.071-0.044-0.141-0.09-0.208-0.136
+				c-0.047-0.033-0.092-0.062-0.135-0.096c-0.001-0.002-0.005-0.005-0.008-0.006c-1.21-0.915-1.625-2.193-1.767-3.03
+				c-0.668-7.558,3.964-22.115,5.733-27.374c0.49-1.345,1.096-3.383,1.096-3.383c-2.347-0.254-3.759-0.248-4.97,0.208l-0.419,0.164
+				c-1.164,0.523-1.847,1.44-1.959,1.569c-4.568,5.892-9.988,8.774-11.585,9.533c-0.41,0.894,0.437,1.534,0.437,1.534
+				s0.014-0.002,0.033-0.003c0.577-0.076,2.766-0.346,4.065-0.156c0.142,0.016,0.265,0.041,0.369,0.073
+				c0.008,0.001,0.013,0.002,0.019,0.004h-0.001c0.348,0.109,0.503,0.289,0.52,0.513c0,0,0.111,0.415-0.18,1.512l-1.966,6.813
+				c-0.641,2.462-2.002,6.487-3.449,9.325c-0.924,2.029-1.893,2.233-4.9,4.368c0,0-1.88,1.377-1.338,3.571
+				c2.796-0.55,7.308-0.91,12.401-0.91c5.116,0,9.646,0.361,12.441,0.918c0.018-0.054,0.035-0.108,0.049-0.162
+				c0.286-0.929-0.016-2.426-0.379-2.926C24.601,36.095,24.286,35.744,24.089,35.627"/>
+		</g>
+	</symbol>
+</svg>
+
+<!--general Js-->
+<script src="https://www.alittle-tea.com/lib/jsManage.js"></script>
+
+<!--lightGallery-->
+<link rel="stylesheet" href="https://www.alittle-tea.com/public/js/lightGallery/dist/css_style/lightgallery.css">
+<script src="https://www.alittle-tea.com/public/js/lightGallery/dist/js/lightgallery-all.min.js"></script>
+<script>
+$(document).ready(function(){
+    $('.titan').lightGallery({
+        hash: false
+    });
+});
+</script>
+
+<!-- slick -->
+<link rel="stylesheet" href="https://www.alittle-tea.com/public/js/slick-slider/slick-theme.css">
+<link rel="stylesheet" href="https://www.alittle-tea.com/public/js/slick-slider/slick.css">
+<script src="https://www.alittle-tea.com/public/js/slick-slider/slick.min.js"></script>
+<script>
+    $(function() {
+        $('#banner').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            fade: true,
+            speed: 1000,
+            autoplay: false,
+            autoplaySpeed: 3000,
+            cssEase: 'ease-in-out'
+        });
+
+        setTimeout(function() {
+            $('#banner .slick-active .Txt').addClass('show');
+            $('#banner').slick("slickSetOption", "autoplay", true, true);
+        },1000);
+         // loop
+        $('#banner').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+            $('#banner .Txt').removeClass('show');
+        });
+        $('#banner').on('afterChange', function(event, slick, currentSlide){
+            $('#banner .slick-active .Txt').addClass('show');
+        });
+    });
+</script>
+
+<!--footable-->
+<link rel="stylesheet" type="text/css" href="https://www.alittle-tea.com/public/js/footable/footable.core.css">
+<script src="https://www.alittle-tea.com/public/js/footable/footable.js"></script>
+<script>
+	$('table.responsive').footable();
+</script>
+
+<!--dotdot-->
+<script src="https://www.alittle-tea.com/public/js/jquery.dotdotdot.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.ellipsis').dotdotdot({
+             wrap: 'letter',
+             remove: [ ' ', ',', ';', '.', '!', '?' ]
+        });
+    });
+</script>
+
+
+
+	    
+<!--customer Js-->
+<script>
+	$(function(){
+		$('.storeClassBox').find('a.main').click(function(){
+			if(!$(this).hasClass('open')){
+				$(this).addClass('open');
+				$(this).siblings('ul').slideDown(200);
+			}else{
+				$(this).removeClass('open');
+				$(this).siblings('ul').slideUp(200);
+			}//end if hasClass
+						
+			return false;
+		});
+		classMenuList();
+		$(window).resize(function(){
+			classMenuList();
+		});
+		function classMenuList(){
+			var width = window.innerWidth;
+			if(width <= 767) {
+				$('.storeClassTitle').off().click(function(){
+					$('html, body').stop().animate({scrollTop:$('.storeClassBox').offset().top - 70}, 500);
+					if($(this).hasClass('open')) {
+						$(this).removeClass('open');
+						$('.storeClassListBox').slideUp();
+					}else {
+						$(this).addClass('open');
+						$('.storeClassListBox').slideDown();
+					}
+				});
+			}
+		}
+	});
+</script>
+
+<script src="https://www.alittle-tea.com/lib/isotope.min.js"></script>
+<script>	
+	$(window).load(function(){
+		var $container = $('#container');
+		$container.isotope();
+		var filterType = 1; // 1減法篩選，符合全部tag才出現；	2加法篩選，符合其中一個tag就出現； 3單純篩選
+		$('#filters a').click(function(){
+			//-----+select
+			if(filterType == 1 || filterType == 2){
+				$(this).toggleClass('select');
+			}else{			
+				$(this).addClass('select').parents('li').siblings().find('a').removeClass('select');
+			} 
+			var $filterA = $('#filters').find('.select');
+			if($filterA.length!=0){//if select 數量 >　0
+				//清空selector
+				selector = '';
+				//建立字串
+				var length = $filterA.length;
+				//取得篩選對象
+				if(filterType == 1){
+					for(i=0; i<=length-1; i++) selector = selector + $filterA.eq(i).data('filter');
+				}else if(filterType == 2){
+					for(i=0; i<=length-1; i++) selector = selector + $filterA.eq(i).data('filter')+','
+					selector = selector.substring(0,selector.length-1);
+				}else{
+					selector = $filterA.data('filter');
+				}				
+				$container.isotope({filter:selector});
+				window.location.hash = 	selector;
+			}else{
+				$container.isotope({filter:'*'});
+				window.location.hash ='##';
+				return false;
+			}
+			return false;
+		});
+		//取消全選
+		$('.tagBox').find('.btn_remove').click(function(){
+			$container.isotope({filter:'*'});
+			$('#filters a').removeClass('select');
+			window.location.hash ='';
+			return false;
+		});	
+		//hash
+		var hash = window.location.hash.replace('#','');
+		if(hash!=''){//如果有hash
+			//執行hash篩選
+			$container.isotope({filter:hash});
+			//重新標示select
+			$('#filters').find('a').removeClass('select');
+			if(filterType == 1){
+				var hash = hash.split('.');
+				for(i=0; i<=hash.length-1; i++) $('#filters').find('a[data-filter=".' + hash[i] + '"]').addClass('select');
+			}else if(filterType == 2){
+				var hash = hash.split(',');
+				for(i=0; i<=hash.length; i++) $('#filters').find('a[data-filter="' + hash[i] + '"]').addClass('select');
+			}else{
+				$('#filters').find('a[data-filter="' + hash + '"]').addClass('select');
+			}
+		}//end if如果有hash
+	});
+</script>
+
+<!-- scrollmagic -->
+<script src="https://www.alittle-tea.com/lib/scrollmagic/ScrollMagic.min.js"></script>
+<script>
+	$(function(){
+		var controller = new ScrollMagic.Controller();
+		var pinTrigger = 70 / $(window).height();
+
+		new ScrollMagic.Scene({
+			triggerElement: '.pinBox',
+			triggerHook: pinTrigger, //0 ~ 1 (觸發起始點)
+		})
+		.setPin('.pinBox')
+		.addTo(controller);
+	});
+</script>
+</body>
+</html>
