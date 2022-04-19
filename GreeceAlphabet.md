@@ -1,42 +1,42 @@
 | 字母 | 代码 |
 |---|---|
-| $\alpha$ | \alpha |
-| $\beta$ | \beta |
-| γ | $\gamma$ |
-|  | $\Gamma$ |
-| δ | $\delta$ |
-|  | $\Delta$ |
-|  | $\epsilon$ |
-| ε | $\varepsilon$ |
-| ζ | $\zeta$ |
-| η | $\eta$ |
-| θ | $\theta$ |
-| Θ | $\Theta$ |
-|  | $\vartheta$ |
-|  | $\iota$ |
-|  | $\kappa$ |
-| λ | $\lambda$ |
-| Λ | $\Lambda$ |
-| μ | $\mu$ |
-|  | $\nu$ |
-|  | $\xi$ |
-|  | $\Xi$ |
-|  | $\pi$ |
-|  | $\Pi$ |
-|  | $\varpi$ |
-|  | $\rho$ |
-| ϱ | $\varrho$ |
-|  | $\sigma$ |
-|  | $\Sigma$ |
-| ς | $\varsigma$ |
-|  | $\tau$ |
-|  | $\upsilon$ |
-|  | $\Upsilon$ |
-|  | $\phi$ |
-|  | $\Phi$ |
-|  | $\varphi$ |
-|  | $\chi$ |
-|  | $\psi$ |
-|  | $\Psi$ |
-| Ω | $\Omega$ |
-| ω | $\omega$ |
+| alpha | $\alpha$ |
+| beta | $\beta$ |
+| gamma | $\gamma$ |
+| Gamma | $\Gamma$ |
+| delta | $\delta$ |
+| Delta | $\Delta$ |
+| epsilon | $\epsilon$ |
+| varepsilon | $\varepsilon$ |
+| zeta | $\zeta$ |
+| ets | $\eta$ |
+| theta | $\theta$ |
+| Theta | $\Theta$ |
+| vartheta | $\vartheta$ |
+| iota | $\iota$ |
+| kappa | $\kappa$ |
+| lambda | $\lambda$ |
+| Lambda | $\Lambda$ |
+| mu | $\mu$ |
+| nu | $\nu$ |
+| xi | $\xi$ |
+| Xi | $\Xi$ |
+| pi | $\pi$ |
+| Pi | $\Pi$ |
+| varpi | $\varpi$ |
+| rho | $\rho$ |
+| varrho | $\varrho$ |
+| sigma | $\sigma$ |
+| Sigma | $\Sigma$ |
+| varsigma | $\varsigma$ |
+| tau | $\tau$ |
+| upsilon | $\upsilon$ |
+| Upsilon | $\Upsilon$ |
+| phi | $\phi$ |
+| Phi | $\Phi$ |
+| varphi | $\varphi$ |
+| chi | $\chi$ |
+| psi | $\psi$ |
+| Psi | $\Psi$ |
+| Omega | $\Omega$ |
+| omega | $\omega$ |
