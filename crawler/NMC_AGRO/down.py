@@ -33,11 +33,13 @@ def download(date, crop, out_dir):
 crop_type = {
     'EYC1': 'Canola', 'EXM3': 'Wheat',
     'EXM2': 'SpringWheat', 'EMLS1': 'Potato',
-    'EHS1': 'Peanut', 'ESD2': 'DoubleSeasonEarlyRice',
-    'EYM2': 'SpringMaize', 'ESD4': 'OneSeasonRice'
+    # 'EHS1': 'Peanut', 
+    'ESD2': 'DoubleSeasonEarlyRice',
+    'EYM2': 'SpringMaize', 'ESD4': 'OneSeasonRice',
+    'EMH1': 'Cotton'
 }
 
-date = '2022/04/11'
+date = '2022/04/18'
 out_dir = r'H:\github\Methods\Phenology\NMC_AGRO'
 
 
